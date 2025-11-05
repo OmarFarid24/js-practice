@@ -56,3 +56,11 @@ if(note <= 100 && note > 90){
 } else{
     console.log("D")
 }
+
+const nameVerification = prompt("Ingresa tu nombre: ");
+const edadVerification = prompt("Ingresa tu edad: ");
+let day = "fin de semana";
+
+
+console.log(`Hola ${firstName} ${lastName}, encantado de conocerte`);
+alert(`Hola ${firstName} ${lastName}, encantado de conocerte`);
