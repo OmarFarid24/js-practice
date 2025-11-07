@@ -5,7 +5,7 @@ if(edad >= 18){
 } else{
     console.log("Menor de edad")
 }
-
+//---------------------------------------------------------------------------------------------------------------------------------
 let num = 2;
 
 if(num % 2 === 0){
@@ -13,7 +13,7 @@ if(num % 2 === 0){
 } else{
     console.log("Numero Impar")
 }
-
+//---------------------------------------------------------------------------------------------------------------------------------
 const userEdad = prompt("Ingresa tu edad:")
 
 if(userEdad < 13){
@@ -27,7 +27,7 @@ else if( userEdad > 12 && userEdad < 18){
     console.log("adult")
     alert("adult")
 }
-
+//---------------------------------------------------------------------------------------------------------------------------------
 let savedUsername = "YoSoyAdmin";
 let savedPassword = "contraseña";
 
@@ -44,7 +44,7 @@ function iniciarSesion(){
     }
 }
 iniciarSesion()
-
+//---------------------------------------------------------------------------------------------------------------------------------
 const note = 95;
 
 if(note <= 100 && note > 90){
@@ -60,7 +60,6 @@ if(note <= 100 && note > 90){
 const nameVerification = prompt("Ingresa tu nombre: ");
 const edadVerification = prompt("Ingresa tu edad: ");
 let day = "fin de semana";
-
 
 console.log(`Hola ${firstName} ${lastName}, encantado de conocerte`);
 alert(`Hola ${firstName} ${lastName}, encantado de conocerte`);

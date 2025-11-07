@@ -12,7 +12,7 @@ let difference = num2 - num1;
 let product = num2 * num1;
 let division = num2 / num1;
 
-console.log(sum, difference, product, division);
+console.log("La suma es: " + sum,"La resta es: " + difference,"La multiplicacion es: " + product,"La division es: " + division);
 //------------------------------------------------------------------------------------------------------------
 const firstName = prompt("Ingresa tu nombre: ");
 const lastName = prompt("Ingresa tu apellido: ");
@@ -24,12 +24,12 @@ let celcius = 35;
 
 let fahrenheit = (celcius * 9/5) + 32
 
-console.log(celcius, fahrenheit)
+console.log(celcius + "C°", fahrenheit + "F°")
 //------------------------------------------------------------------------------------------------------------
-const userName = prompt("Ingresa tu nombre, por favor");
-const userAge = prompt("Ingresa tu edad, por favor");
-const country = prompt("Ingresa tu pais");
-const lenguageProgram = prompt("Ingresa tu lenguaje de programacion")
+const userName = prompt("Ingresa tu nombre, por favor: ");
+const userAge = prompt("Ingresa tu edad, por favor: ");
+const country = prompt("Ingresa tu pais: ");
+const lenguageProgram = prompt("Ingresa tu lenguaje de programacion: ")
 
 console.log(`Eres: ${userName}
 Tienes: ${userAge}
