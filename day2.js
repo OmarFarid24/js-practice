@@ -9,9 +9,9 @@ if(edad >= 18){
 let num = 2;
 
 if(num % 2 === 0){
-    console.log("Numero Par")
+    console.log(num + "Es numero Par")
 } else{
-    console.log("Numero Impar")
+    console.log(num + "Es numero Impar")
 }
 //---------------------------------------------------------------------------------------------------------------------------------
 const userEdad = prompt("Ingresa tu edad:")
@@ -28,8 +28,8 @@ else if( userEdad > 12 && userEdad < 18){
     alert("adult")
 }
 //---------------------------------------------------------------------------------------------------------------------------------
-let savedUsername = "YoSoyAdmin";
-let savedPassword = "contraseña";
+let savedUsername = "iAmAdmin";
+let savedPassword = "password";
 
 function iniciarSesion(){
     let user = prompt("ingresa nombre:")
