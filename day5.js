@@ -92,11 +92,29 @@ for (let i = word.length -1;i >= 0; i--){
     invertWord += word[i];
 }
 if (word === invertWord){
-    console.log("Palindrome")
+    console.log(invertWord + " " + "Es Palindrome")
 }else{
-    console.log("Not palindrome")
+    console.log(invertWord+ " " + "Not palindrome")
 }
-console.log(invertWord);
 
 //-----------------------------------------------------------------------------------------------
 
+const shopping = [105,5,3,2,6,90,21,24,75,100,125];
+let totalItems = shopping.length;
+let totalPrices = 0;
+let mostExpensive= shopping[0];
+let cheapest = shopping[0];
+
+for(let i = 0; i < shopping.length; i++){
+
+    totalPrices += shopping[i];
+    if(shopping[i] > mostExpensive ){
+        mostExpensive = shopping[i]
+    } else if(shopping[i]< cheapest){
+        cheapest = shopping[i]
+    }
+}
+console.log("Items: "+ totalItems)
+console.log("Total: $" + totalPrices)
+console.log("Most expensive: $" + mostExpensive)
+console.log("Cheapest: $" + cheapest)
