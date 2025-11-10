@@ -118,3 +118,17 @@ console.log("Items: "+ totalItems)
 console.log("Total: $" + totalPrices)
 console.log("Most expensive: $" + mostExpensive)
 console.log("Cheapest: $" + cheapest)
+
+//-----------------------------------------------------------------------------------------------
+
+let listTask = [];
+
+for(let i = 0 ;i < 3; i++){
+    let newTask = prompt("introduce la palabra " + (i+1) +":");
+    if(newTask) {
+       listTask.push(newTask);
+       console.log("Task N° " + (i+1)+ ": " + listTask[i])
+    } else {
+        i--;
+    }
+}
